@@ -1,0 +1,7 @@
+python-dotenv            # Load environment variables from .env files
+langchain-core           # Core components for building language model applications
+langchain-community      # Community-contributed integrations for LangChain
+langgraph                # Framework for building language model workflows/graphs
+langchain-nvidia-ai-endpoints # NVIDIA AI endpoints integration for LangChain
+langchain-sandbox        # Sandbox environment for LangChain applications to run code safely
+flask-restful            # RESTful API framework for Flask
