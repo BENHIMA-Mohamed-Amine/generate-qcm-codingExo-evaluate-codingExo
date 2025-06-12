@@ -52,10 +52,3 @@ def evaluate_exercise():
         return jsonify(results), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 400
-    
-
-# run app for production
-if __name__ == '__main__':
-    HOST = os.getenv('HOST', '0.0.0.0')
-    PORT = int(os.getenv('PORT', 8000))
-    app.run(host=HOST, port=PORT)
