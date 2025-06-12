@@ -5,3 +5,4 @@ langgraph                # Framework for building language model workflows/graph
 langchain-nvidia-ai-endpoints # NVIDIA AI endpoints integration for LangChain
 langchain-sandbox        # Sandbox environment for LangChain applications to run code safely
 flask-restful            # RESTful API framework for Flask
+gunicorn                # WSGI HTTP server for UNIX, used to serve Flask applications
